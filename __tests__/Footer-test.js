@@ -5,12 +5,12 @@
 
 import 'react-native';
 import React from 'react';
-import Main from '../comps/Main';
+import Footer from '../comps/Footer';
 
 // Note: test renderer must be required after react-native.
 import renderer from 'react-test-renderer';
 
 it('renders correctly', () => {
-  renderer.create(<Main />);
+  renderer.create(<Footer />);
 });
- 
+  

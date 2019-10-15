@@ -15,7 +15,7 @@ import styles from './styles/AppStyles';
 import Main from './comps/Main';
 
 // Import comps below
-// import Main from './comps/Main';
+import Main from './comps/Main';
 
 function App(){
 	// UI
