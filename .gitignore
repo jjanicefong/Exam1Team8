@@ -37,6 +37,8 @@ node_modules/
 jspm_packages/
 ios/
 android/
+android/
+ios/
 package-lock.json/
 
 # TypeScript v1 declaration files
