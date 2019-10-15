@@ -1,9 +1,4 @@
 
-import React from 'react';
-import {View,Text} from 'react-native'
-import styles from '../styles/MainStyles';
-import Footer from '../comps/Footer';
-
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
@@ -11,6 +6,18 @@ import Footer from '../comps/Footer';
  * @format
  * @flow
  */
+
+
+import React from 'react';
+import styles from '../styles/MainStyles';
+import {
+  View
+} from 'react-native';
+import Header from './Header';
+
+// Import comps below
+// import Main from './comps/Main';
+
 // Import comps below
 
 
@@ -18,13 +25,12 @@ function Main(){
 	// UI
 	return (
 
-		<View style={styles.main}>
-         <Footer />
+		<View >
+            <Header />
 		</View>
 	)
 }
 
 
-export default Main;
-
+export default Main; 
 
