@@ -9,21 +9,19 @@
 import React from 'react';
 import {
   View,
-  Text
+  Text,
 } from 'react-native';
-import styles from './styles/AppStyles';
-import Main from './comps/Main';
+import styles from '../styles/MainStyles';
 
 // Import comps below
-import Main from './comps/Main';
 
-function App(){
+function TFoot(){
 	// UI
 	return (
-		<View style={styles.app}>
-			<Main />
+		<View style={styles.foot}>
+      <Text> By Author Name</Text>
 		</View>
 	)
 }
 
-export default App;
+export default TFoot;
