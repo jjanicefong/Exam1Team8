@@ -8,11 +8,14 @@ function Footer(){
 	// UI
 	return (
         <View style={[styles.footer,{newText}]}>
-            <Text style={[styles.text1,{newText}]}>
-               by
-            </Text>
-            <Text style={[styles.text2,{newText}]}>
-               author full name
+            <Text style={styles.text1}>by</Text>
+
+            <Text
+               selectedValue = {newText}
+               style={styles.text2}
+               onValueChange = {(itemValue)=>{
+                  setNewText(itemValue)
+               }}>
             </Text>
             
             <Picker

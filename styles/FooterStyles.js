@@ -5,7 +5,8 @@ var styles = StyleSheet.create({
    text1: {
       fontSize: 20,
       color: "grey",
-      right: 170
+      right: 170,
+      fontStyle: "italic",
    },
 
    text2: {
@@ -26,8 +27,8 @@ var styles = StyleSheet.create({
     },
 
     picker: {
-        height: 200,
-        width: 100,
+        height: 150,
+        width: 150,
         position: "absolute",
         right: 20
     }
