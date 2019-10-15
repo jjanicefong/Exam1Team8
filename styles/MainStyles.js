@@ -1,5 +1,6 @@
 import {StyleSheet} from 'react-native';
 
+
 var styles = StyleSheet.create({
     main: {
         flex: 1,
@@ -9,4 +10,6 @@ var styles = StyleSheet.create({
     }
 });
 
+
 export default styles;
+
