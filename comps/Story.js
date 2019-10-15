@@ -75,9 +75,6 @@ const [scrollText, setScrollText] = useState(true);
             </View>
 
         }
-
-        
-
         // UI STATE
 
         return (
