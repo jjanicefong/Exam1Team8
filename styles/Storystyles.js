@@ -6,18 +6,17 @@ var styles = StyleSheet.create({
         justifyContent: "center",
         alignItems: "center",
         width: "100%",
-        height: "100%",
-        padding:'3%'
-
+        height: "80%",
+        padding:'5%'
     },
     night: {
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
         width: "100%",
-        height:"100%",
+        height:"80%",
         backgroundColor: '#262626',
-        padding:'3%'
+        padding:'5%'
     }
 });
  
