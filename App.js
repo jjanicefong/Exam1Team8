@@ -9,9 +9,9 @@
 import React from 'react';
 import {
   View,
-  Text,
+  Text
 } from 'react-native';
-//import styles from './styles/AppStyles';
+import styles from './styles/AppStyles';
 import Main from './comps/Main';
 
 // Import comps below
@@ -20,7 +20,7 @@ import Main from './comps/Main';
 function App(){
 	// UI
 	return (
-		<View >
+		<View style={styles.app}>
 			<Main />
 		</View>
 	)
