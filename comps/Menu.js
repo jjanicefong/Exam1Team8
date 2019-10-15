@@ -18,36 +18,39 @@ import styles from '../styles/MenuStyles';
 
 
 export default class Menu extends Component {
-  constructor(props) {
-    super(props)
-    this.state = { 
-      showComp: false
-     }
+  state={
+    opacity: 0
   }
 
-  onPress = () => {
+ onPress = () => {
     this.setState({
-      showComp: !this.state.showComp
-    })
+      opacity: 1 //Anything u want
+    });
   }
+
+
 
  render() {
   // UI
+
+
+
   
 	return (
-		<View style={styles.menu}>
+    
+		<View style={{ opacity: this.state.opacity._value, position: 'absolute', zIndex: 100}}>
+  
+      
       <TouchableOpacity
-         style={styles.button}
          onPress={this.onPress}
         >
     <Image
       style={styles.image}
       source={require('../img/menu.png')}
     /> 
-    <Text style={styles.content}>Menu Items</Text>
+    <Text style={[styles.content, {opacity: this.state.opacity}]}>Menu Items</Text>
 
       </TouchableOpacity>
-      <Text>{ this.state.count !== 0 ? this.state.count: null}</Text>
 		</View>
 	)
 }}
