@@ -13,7 +13,7 @@ var styles = StyleSheet.create({
         backgroundColor: "#FFFF99",
     },
     headerText: {
-        fontSize: 35
+        fontSize: 30
     },
     edit: {
         top: 0,
