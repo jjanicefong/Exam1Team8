@@ -6,7 +6,7 @@ var styles = StyleSheet.create({
         justifyContent: "center",
         alignItems: "center",
         width: "100%",
-        height: "80%",
+        height: "60%",
         padding:'5%'
     },
     night: {
@@ -14,10 +14,11 @@ var styles = StyleSheet.create({
         justifyContent: "center",
         alignItems: "center",
         width: "100%",
-        height:"80%",
+        height:"60%",
         backgroundColor: '#262626',
         padding:'5%'
-    }
+    },
+        
 });
  
 export default styles;
