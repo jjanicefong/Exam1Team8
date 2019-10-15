@@ -7,7 +7,7 @@ var styles = StyleSheet.create({
         justifyContent: "center",
         alignItems: "center",
         width: "100%",
-        height: "20%",
+        height: "15%",
         top: 0,
         paddingTop: 50,
         backgroundColor: "#FFFF99",

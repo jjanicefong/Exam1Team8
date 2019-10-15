@@ -12,7 +12,7 @@ function Header() {
         super();
         this.state = { TextInputDisableStatus: true }
     }
-
+//
     onPressButton = () => {
         this.setState({ TextInputDisableStatus: false })
     } */
