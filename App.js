@@ -14,13 +14,13 @@ import {
 import styles from './styles/AppStyles';
 
 // Import comps below
-// import Main from './comps/Main';
+import Main from './comps/Main';
 
 function App(){
 	// UI
 	return (
 		<View style={styles.app}>
-
+      <Main />
 		</View>
 	)
 }
