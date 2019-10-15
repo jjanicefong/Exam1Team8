@@ -11,8 +11,8 @@ import {
   View,
   Text,
 } from 'react-native';
-import styles from './styles/AppStyles';
-import Header from './comps/Header';
+//import styles from './styles/AppStyles';
+import Main from './comps/Main';
 
 // Import comps below
 // import Main from './comps/Main';
@@ -20,8 +20,8 @@ import Header from './comps/Header';
 function App(){
 	// UI
 	return (
-		<View style={styles.app}>
-			<Header />
+		<View >
+			<Main />
 		</View>
 	)
 }
