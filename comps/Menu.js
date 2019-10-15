@@ -11,7 +11,7 @@ import {
   View,
   Image,
   Text,
-  TouchableHighlight
+  TouchableOpacity
 } from 'react-native';
 
 import styles from '../styles/MenuStyles';
@@ -20,12 +20,14 @@ import styles from '../styles/MenuStyles';
 export default class Menu extends Component {
   constructor(props) {
     super(props)
-    this.state = { count: 0 }
+    this.state = { 
+      showComp: false
+     }
   }
 
   onPress = () => {
     this.setState({
-      count: this.state.count+1
+      showComp: !this.state.showComp
     })
   }
 
@@ -34,7 +36,7 @@ export default class Menu extends Component {
   
 	return (
 		<View style={styles.menu}>
-      <TouchableHighlight
+      <TouchableOpacity
          style={styles.button}
          onPress={this.onPress}
         >
@@ -42,8 +44,9 @@ export default class Menu extends Component {
       style={styles.image}
       source={require('../img/menu.png')}
     /> 
+    <Text style={styles.content}>Menu Items</Text>
 
-      </TouchableHighlight>
+      </TouchableOpacity>
       <Text>{ this.state.count !== 0 ? this.state.count: null}</Text>
 		</View>
 	)
